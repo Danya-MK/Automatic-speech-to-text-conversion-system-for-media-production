@@ -1,0 +1,5 @@
+system,wer_punct,wer_norm,cer,punct_f1,ner_f1,n,rtf
+Whisper baseline,10.2958,6.0247,2.7681,87.5262,,2000,
+GigaAM v3,8.9977,5.3051,2.1099,89.4170,,2000,
+Vikhr Borealis,22.6661,5.0872,4.7795,94.5261,,2000,
+Whisper FT + PP,7.9545,4.9423,2.0765,91.5103,,2000,

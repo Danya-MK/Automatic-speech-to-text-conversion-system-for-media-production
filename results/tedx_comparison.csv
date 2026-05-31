@@ -1,0 +1,5 @@
+system,wer_norm,n
+Whisper baseline,16.795,1132
+Whisper FT + ПО,18.5848,1132
+GigaAM v3,19.2092,1132
+Vikhr Borealis,23.3646,1132

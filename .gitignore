@@ -1,0 +1,38 @@
+# Данные и модели (слишком большие для git)
+dataset/
+models/
+media/
+GigaAM/
+
+# Предсказания и логи
+predictions_*.txt
+*.log
+rtf_*.json
+
+# Черновики диплома
+section_*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

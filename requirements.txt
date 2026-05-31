@@ -1,0 +1,26 @@
+torch>=2.7.0
+transformers>=4.45.0
+datasets>=3.0.0
+accelerate>=1.0.0
+peft>=0.13.0
+bitsandbytes>=0.44.0
+soundfile>=0.12.1
+evaluate>=0.4.3
+jiwer>=3.0.4
+tensorboard
+torchaudio>=2.7.0
+
+# Постобработка
+deepmultilingualpunctuation
+natasha
+num2words
+
+# REST API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+aiofiles>=24.1.0
+
+# Графики
+matplotlib>=3.9.0
+pandas>=2.2.0
