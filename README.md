@@ -20,15 +20,6 @@
 | Vikhr Borealis | 5.09% | 4.78% | 94.5% | 0.102 |
 | **Whisper FT + ПО** | **4.94%** | **2.08%** | **91.5%** | **0.056** |
 
-### Multilingual TEDx Russian (out-of-domain, n=1132)
-
-| Модель | WER↓ |
-|---|---|
-| **Whisper baseline** | **16.80%** |
-| Whisper FT + ПО | 18.58% |
-| GigaAM v3 | 19.21% |
-| Vikhr Borealis | 23.36% |
-
 ### NER на WikiANN Russian (n=150 синтетических предложений)
 
 | Модель | F1↑ | Precision↑ | Recall↑ |
@@ -82,7 +73,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/<your-username>/speech-to-text-media-production.git
+git clone https://github.com/Danya-MK/speech-to-text-media-production.git
 cd speech-to-text-media-production
 pip install -r requirements.txt
 ```
@@ -159,7 +150,3 @@ python eval_ner_corpus.py
 python eval_tedx.py --max_samples 200   # быстрый тест
 python eval_tedx.py                     # полный прогон
 ```
-
-## Лицензия
-
-MIT
